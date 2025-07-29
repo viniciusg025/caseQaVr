@@ -1,5 +1,6 @@
 require 'httparty'
 
+#chamada da api utilizada para trazer um estabelecimento aleatório
 class ApiService
   include HTTParty
   base_uri 'https://portal.vr.com.br'
